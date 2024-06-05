@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        body{
+            background-image: url("Images/heroSectionBackground.png");
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+        form{
+            padding-top: 10%;
+        }
+        button{
+            background-color: lightslategray;
+            width: 120px;
+            height: 40px;
+            color: black;
+            border-style: hidden;
+            border-radius: 12px;
+            font-size: 24px;
+        }
+        i{
+            font-size: medium;
+        }
+        .cb{
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        a{
+            color: bisque;
+        }
+    </style>
+    <link rel="shortcut icon" href="Images/favicons.png" type="image/x-icon">
+</head>
+<body>
+    <center>
+        <h3  style="font-size: xx-large; color: white;">Eat-House Sign-up</h3>
+    </center>
+    <i>Mandatory fields are marked with <font color="red">*</font></i>
+    <form>
+        <br>
+        <fieldset>
+            <legend>CONTACT DETAILS</legend>
+            <table>
+                <tr>
+                    <td><label>Name<font color="red">*</font></label></td>
+                    <td></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr height="10"></tr>
+                <tr>
+                    <td><label>Mobile No</label></td>
+                    <td></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr height="10"></tr>
+                <tr>
+                    <td><label>Email<font color="red">*</font></label></td>
+                    <td></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <table>
+                <tr>
+                    <td><font color="red">*</font>Age</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr height="10"></tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <select>
+                            <option></option>
+                            <option>Female</option>
+                            <option>Male</option>
+                            <option>Other</option>
+                        </select>
+
+                </tr>
+                <tr height="10"></tr>
+                <tr>
+                    <td width="100">Address</td>
+                    <td><textarea rows="5" maxlength="50"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>PUBLIC DISPLAY</legend>
+            <table>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr height="10"></tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td></td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <button type="submit">Sign Up</button>
+    </form>
+    <div class="cb">
+        Existing User? <a href="login.html">Login</a>
+    </div>
+</body>
+</html>
